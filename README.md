@@ -4,9 +4,13 @@ An executable example for using [Subgraph Isomorphism Constraint Satisfaction li
 # Requirements
 At this moment it is supported on Windows 10.
 
-[JAVA SE 14](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html) is required.
+Following tools need to be installed:
 
-[SWIG for Windows](http://www.swig.org/Doc1.3/Windows.html) is required.
+- [vcpkg](https://vcpkg.io/en/index.html)
+
+- [JAVA SE 14](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html)
+
+- [SWIG for Windows](http://www.swig.org/Doc1.3/Windows.html) 
 
 # Installing the project
 Download the project from the [sicsSWIG](https://github.com/bi4528/sicsSWIG)
