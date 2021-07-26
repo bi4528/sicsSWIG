@@ -12,13 +12,24 @@ Following tools need to be installed:
 
 - [SWIG for Windows](http://www.swig.org/Doc1.3/Windows.html) 
 
-# Installing the project
-Download the project from the [sicsSWIG](https://github.com/bi4528/sicsSWIG)
+*Disclaimer : Every step of installtions of these tools must bo done propery. Using **vcpkg** and **swig** as commands requires setting them as environmental variables.*
 
-## Using Eclipse
+# Installing the project
+Do either of following steps:
+- Download the project from the [sicsSWIG](https://github.com/bi4528/sicsSWIG)
+- Use `git clone https://github.com/bi4528/sicsSWIG.git`
+- Open directly with Visual Studio
+
+## Using Visual Studio for building an extension 
+- By opening the project Project Properties should alreadsa be set, so it can create *.dll* file
+- However, some changes and debugging might be needed, depending on reqirements
+- The directory which contains ".dll" should be used lately as **Native Library Location**
+
+## Using Eclipse for 
 - **File->Import->Project from Folder or Archive** browse the Archive project and select **Finish**
 - Find the project in **Project Explorer** and select **Run Configurations**
 - In **Run Configurations** **Project** should be **sicsSWIG** and **Main class**: **runme**
+- Go to project **Properties->Java Build Path->Libraries** and select **Native Library Location** and set it to the directory which contains *.dll* file
 - **Apply** and **Run** the project
 
 # Usage
